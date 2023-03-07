@@ -47,7 +47,7 @@ const hex = dc.hslToRgb({ h: 122, s: 11, l: 33 });
 | HEX       | RGB       | HSL      | CMYK      |
 | --------- | --------- | -------- | --------- |
 | hexToRgb  | rgbToHex  | hslToRgb | cmykToHsl |
-| hexToHsv  | rgbToHsv  | hslToHwx | cmykToRgb |
+| hexToHsv  | rgbToHsv  | hslToHex | cmykToRgb |
 | hexToHsl  | rgbToHsl  |          |
 | hexToCmyk | rgbToCmyk |          |
 
