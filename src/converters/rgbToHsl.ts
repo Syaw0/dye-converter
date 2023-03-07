@@ -1,3 +1,5 @@
+import { Rgb } from "../types";
+
 const rgbToHsl = (rgb: Rgb) => {
   const hsl = { h: 0, s: 0, l: 0 };
   let { r, g, b } = rgb;

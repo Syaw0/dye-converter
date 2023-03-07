@@ -1,3 +1,4 @@
+import { Hsl } from "../types";
 import hslToRgb from "./hslToRgb";
 import rgbToHex from "./rgbToHex";
 

@@ -1,3 +1,4 @@
+import { Hex } from "../types";
 import hexToRgb from "./hexToRgb";
 
 const hexToHsl = (color: Hex) => {

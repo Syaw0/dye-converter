@@ -1,3 +1,5 @@
+import { Cmyk } from "../types";
+
 const cmykToRgb = (cmyk: Cmyk) => {
   let { c, m, y, k } = cmyk;
   c /= 100;

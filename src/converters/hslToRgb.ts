@@ -1,3 +1,5 @@
+import { Hsl } from "../types";
+
 const hslToRgb = (hsl: Hsl) => {
   let { h, l, s } = hsl;
   l /= 100;

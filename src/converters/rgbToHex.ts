@@ -1,3 +1,5 @@
+import { Rgb } from "../types";
+
 const rgbToHex = (rgb: Rgb) => {
   const { r, g, b } = rgb;
   let result = "#";

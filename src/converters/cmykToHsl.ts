@@ -1,3 +1,4 @@
+import { Cmyk } from "../types";
 import cmykToRgb from "./cmykToRgb";
 import rgbToHsl from "./rgbToHsl";
 

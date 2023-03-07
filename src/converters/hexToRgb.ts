@@ -1,3 +1,5 @@
+import { Hex } from "../types";
+
 const hexToRgb = (color: Hex) => {
   const c = color.slice(1, color.length);
   let result = { r: 0, g: 0, b: 0 };
